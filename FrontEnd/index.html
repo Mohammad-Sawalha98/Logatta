@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   
+
+</head>
+<body>
+    <nav>
+       
+        <ul id="nav-items">
+           <li><img id="logo" src="/Images/Logo2.png"></li> 
+            <li id="About">About</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Testmotional</li>
+            <li>Help</li>
+            <li id="Signin">Sign In</li>
+            <li id="SignUp">Sign Up</li>
+        </ul>
+    </nav>
+    
+
+    <div id="main">
+        <div id="main-left">
+<h1>Want anything to be <br> easy with <span>LaslesVPN</span></h1>
+<p>Provide a network for all your needs with ease and fun using LaslesVPN <br>
+     discover interesting features from us.</p> <br>
+<button  id="getStarted">Get Started</button>
+
+        </div>
+
+
+        <div id="main-right">
+            <img class="image1" src="/Images/photo1.png">
+        </div>
+
+    </div>
+
+    <div id="information">
+       <div class="part">
+        <i class="fa-solid fa-user"></i>
+        <p style="width:2%">90+ Users</p>
+       </div>
+
+       <div></div>
+
+        <div class="part">
+            <i class="fa-solid fa-location-dot"></i>
+             <p style="width:2%">30+ Locations</p>
+        </div>
+        
+        <div></div>
+
+        <div class="part">
+            <i class="fa-solid fa-server"></i>
+             <p style="width:2%">50+ Servers</p>
+
+        </div>
+    </div>
+
+
+    <div id="main-tow">
+        <div id="main-left-tow">
+            <img class="image1" src="/Images/photo-tow.png">
+        </div>
+
+
+        <div id="main-right-tow">
+            <h1>We Provide Many <br> Features You Can Use</h1> 
+<p>You can explore the features that we provide with fun <br> and have their own functions each feature.</p>
+           
+<ul id="check-items">
+   <div class="num"><i class="fa-solid fa-circle-check"></i> <li>Powerfull online protection.</li></div> 
+    <div  class="num"><i class="fa-solid fa-circle-check"></i> <li>Internet without borders.</li></div>
+   <div  class="num"><i class="fa-solid fa-circle-check"></i> <li>Supercharged VPN</li></div> 
+  <div  class="num"> <i class="fa-solid fa-circle-check"></i> <li>No specific time limits.</li></div> 
+</ul>
+        </div>
+
+    </div>
+
+<script>
+    function changecolor(){
+        document.getElementById("getStarted").style.backgroundColor="#f53838";
+        document.getElementById("getStarted").style.color="white";
+        document.getElementById("getStarted").style.boxShadow="10px 10px 30px #f53838";
+      
+        
+    }
+  
+   
+
+    const myElement = document.getElementById("getStarted");
+
+// Add an event listener for "mouseover"
+myElement.addEventListener("mouseover", function() {
+  // Change the background color to red
+  myElement.style.backgroundColor = "#f53838";
+});
+
+// Add an event listener for "mouseout"
+myElement.addEventListener("mouseout", function() {
+  // Change the background color back to the original color
+  myElement.style.backgroundColor = "#EFEFEF";
+});
+
+</script>
+</body>
+</html>

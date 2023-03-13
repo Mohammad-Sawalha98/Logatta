@@ -1,0 +1,372 @@
+
+body{
+    width: 90%;
+    margin-left: 5%;
+}
+nav #nav-items{
+    display: flex;
+   
+}
+nav #nav-items li{
+    margin-left: 5%;
+    
+    list-style-type: none;
+}
+
+#logo{
+height: 35px;
+width: 100px;
+}
+
+#About{
+    padding-left: 100px;
+}
+#SignUp{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    width: 7%;
+    text-align: center;
+    padding: 5px;
+}
+#Signin{
+    font-weight: bold;
+    padding-left: 150px;
+}
+
+#main{
+    display: flex;
+    margin-left: 10%;
+
+}
+
+#main-left{
+    display: flex;
+    flex-direction: column;
+}
+.image1{
+    width: 100%;
+    height: 400px;
+}
+
+span{
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#getStarted{
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: larger;
+}
+#information{
+    display: flex;
+    margin-left:10%;
+    margin-top: 50px;
+    
+}
+.part{
+    display: flex;
+    width: 50%;
+    font-size: x-large;
+   
+}
+.part i{
+    background-color: #ffecec;
+    color: #f53838;
+    padding: 10px;
+    border-radius: 50%;
+    height: 20px;
+    margin-top: 25px;
+    margin-right: 30px ;
+}
+
+#main-tow{
+
+    display: flex;
+    margin-top: 25px;
+    background-color: #EEEEEE;
+    margin-left: 10%;
+}
+
+#main-right-tow{
+
+    margin-top: 50px;
+    margin-left:5%;
+}
+
+#check-items{
+    display: flex;
+    flex-direction: column;
+}
+
+#check-items .num{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    
+}
+#check-items .num i{
+   color:green;
+ 
+    list-style-type: none;
+    margin-right:10px ;
+    
+}
+
+@media (min-width:0px) and (max-width:480px){
+
+
+    nav #nav-items{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    nav #nav-items li{
+        margin-left: 5%;
+        width: 100%;
+       
+    }
+
+    #About{
+        padding-left: 0px;
+    }
+    #SignUp{
+       
+        border-radius: 50px;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    #Signin{
+        font-weight: bold;
+        padding-left: 0px;
+    }
+    
+
+
+.image1{
+    width: 100%;
+    height: 200px;
+}
+#logo{
+    height: 35px;
+    width: 20%px;
+    }
+
+
+   
+#main{
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+    #main-left{
+       
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: x-small;
+    }
+    span{
+        font-size:larger;
+    }
+
+    #getStarted{
+        width: 80%;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: small;
+    }
+    #information{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:10%;
+        margin-top: 30px;
+        
+    }
+    .part{
+        display: flex;
+flex-wrap: wrap;
+        width: 100%;
+        font-size: small;
+       
+    }
+    .part i{
+      
+        padding: 7px;
+        border-radius: 50%;
+        height: 15px;
+        margin-top: 15px;
+        margin-right: 20px ;
+    }
+
+
+
+    #main-tow{
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    
+    #main-right-tow{
+    
+        margin-top: 20px;
+        margin-left:5%;
+        font-size: small;
+    }
+    
+    #check-items{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #check-items .num{
+        display: flex;
+        list-style-type: none;
+        margin-top: 10px;
+        
+    }
+    #check-items .num i{
+       color:green;
+     
+        list-style-type: none;
+        margin-right:10px ;
+
+        
+    }
+
+    
+}
+@media (min-width:481px) and (max-width:768px){
+
+
+    nav #nav-items{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    nav #nav-items li{
+       margin-left: 5%;
+        width: 10%; 
+    }
+
+    #About{
+        padding-left: 3%;
+    }
+    #SignUp{
+       
+        border-radius: 50px;
+        width: 2%;
+        text-align: center;
+        padding: 1px;
+    }
+    #Signin{
+        font-weight: bold;
+        padding-left: 0px;
+    }
+    
+
+
+.image1{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+#logo{
+    height: 35px;
+    width: 20%px;
+    }
+
+
+   
+#main{
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+    #main-left{
+       
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: large;
+        width:50%
+    }
+    span{
+        font-size:x-larger;
+    }
+
+    #getStarted{
+        width: 80%;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: large;
+    }
+    #information{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:10%;
+        margin-top: 30px;
+        
+    }
+    .part{
+        display: flex;
+    flex-wrap: wrap;
+        width: 50%;
+        font-size: large;
+       
+    }
+    .part i{
+      
+        padding: 9px;
+        border-radius: 50%;
+        height: 15px;
+        margin-top: 15px;
+        margin-right: 25px ;
+    }
+
+
+
+    #main-tow{
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    
+    #main-right-tow{
+    
+        margin-top: 20px;
+        margin-left:5%;
+        font-size: large;
+    }
+    
+    #check-items{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #check-items .num{
+        display: flex;
+        list-style-type: none;
+        margin-top: 10px;
+        
+    }
+    #check-items .num i{
+       color:green;
+     
+        list-style-type: none;
+        margin-right:10px ;
+
+        
+    }
+
+
+
+
+
+
+
+
+}
